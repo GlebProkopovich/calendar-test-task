@@ -37,7 +37,9 @@ const Calendar = () => {
   );
 
   const addEvent = () => {
-    const answer = prompt(`Enter event time!\nExample: 28.03.19, 15:00`);
+    const answer = prompt(
+      `Введите дату и время планируемого события!\nПример: 28.03.19, 15:00`
+    );
     answer && setDateOfEvent(answer);
   };
 
