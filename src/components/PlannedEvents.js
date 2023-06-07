@@ -10,9 +10,10 @@ const StyledPlannedEvents = styled.div`
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(12, 1fr);
-  padding: 0 1% 0 8%;
+  padding: 0 1% 0 50px;
 
   @media screen and (max-width: 740px) {
+    padding: 0 1% 0 8%;
   }
 `;
 

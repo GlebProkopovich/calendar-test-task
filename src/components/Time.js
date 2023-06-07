@@ -9,12 +9,12 @@ const StyledTimes = styled.div`
 
 const StyledTime = styled.p`
   font-size: 14px;
-  padding: 7px;
+  padding: 7px 0px 7px 30px;
   color: #8a8a96;
 
   @media screen and (max-width: 740px) {
     font-size: 2vw;
-    padding: 20%;
+    padding: 20% 20% 20% 40%;
   }
 `;
 
