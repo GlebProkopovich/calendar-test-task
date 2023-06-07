@@ -2,9 +2,9 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledBtn = styled.button`
-  color: #e80000;
-  font-size: 4vw;
+  font-size: 30px;
   font-weight: 100;
+  color: #e80000;
   background: none;
   border: none;
   transition: all ease 0.3s;
@@ -16,6 +16,10 @@ const StyledBtn = styled.button`
 
   &:active {
     transform: scale(100%);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 4vw;
   }
 `;
 

@@ -4,7 +4,7 @@ import styled from 'styled-components';
 import { deleteEvent } from '../state/action-creators';
 
 const StyledBtn = styled.button`
-  font-size: 2vw;
+  font-size: 20px;
   color: rgb(232, 0, 0);
   background: none;
   border: none;
@@ -18,6 +18,10 @@ const StyledBtn = styled.button`
 
   &:active {
     transform: scale(100%);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 2vw;
   }
 `;
 

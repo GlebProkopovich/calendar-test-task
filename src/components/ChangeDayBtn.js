@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledChangeDayBtn = styled.button`
-  font-size: 2vw;
+  font-size: 20px;
   color: rgb(232, 0, 0);
   background: none;
   border: none;
@@ -16,6 +16,10 @@ const StyledChangeDayBtn = styled.button`
 
   &:active {
     transform: scale(100%);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 2vw;
   }
 `;
 

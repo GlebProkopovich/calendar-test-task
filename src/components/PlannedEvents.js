@@ -11,6 +11,9 @@ const StyledPlannedEvents = styled.div`
   grid-template-columns: repeat(7, 1fr);
   grid-template-rows: repeat(12, 1fr);
   padding: 0 1% 0 8%;
+
+  @media screen and (max-width: 740px) {
+  }
 `;
 
 const StyledEvent = styled.button`

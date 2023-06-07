@@ -19,10 +19,14 @@ import DeleteBtn from './DeleteBtn';
 import { useSelector } from 'react-redux';
 
 const StyledCalendar = styled.div`
-  width: 60%;
+  width: 740px;
   background: #f5f5fd;
   border: solid 0.5px #b8b8c8;
   border-radius: 10px;
+
+  @media screen and (max-width: 740px) {
+    width: 60%;
+  }
 `;
 
 const Calendar = () => {

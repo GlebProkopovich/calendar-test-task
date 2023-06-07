@@ -3,7 +3,7 @@ import styled from 'styled-components';
 
 const StyledBtn = styled.button`
   color: rgb(232, 0, 0);
-  font-size: 2vw;
+  font-size: 30px;
   font-weight: 100;
   background: none;
   border: none;
@@ -11,7 +11,11 @@ const StyledBtn = styled.button`
   cursor: pointer;
 
   &:hover {
-    transform: scale(150%);
+    transform: scale(130%);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 2vw;
   }
 `;
 

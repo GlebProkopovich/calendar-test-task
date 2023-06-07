@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 
 const StyledBtn = styled.button`
-  font-size: 2vw;
+  font-size: 16px;
   background: none;
   border: none;
   transition: all ease 0.3s;
@@ -10,6 +10,10 @@ const StyledBtn = styled.button`
 
   &:hover {
     transform: scale(110%);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 2vw;
   }
 `;
 

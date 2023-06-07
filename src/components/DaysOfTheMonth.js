@@ -8,19 +8,23 @@ const StyledDaysOfTheMonth = styled.div`
 `;
 
 const StyledDayOfTheMonth = styled.button`
-  font-size: 1.5vw;
+  font-size: 12px;
   font-weight: 300;
   text-transform: uppercase;
-  padding: 1.5% 1.5%;
-  margin: 1% 3%;
+  padding: 0.5% 14px;
+  margin: 1% 22.7px;
   border: none;
   background: none;
   cursor: pointer;
 
   &:hover {
-    color: #fff;
-    border-radius: 50%;
-    background: rgb(232, 0, 0);
+    color: rgb(232, 0, 0);
+  }
+
+  @media screen and (max-width: 740px) {
+    font-size: 1.5vw;
+    padding: 1.5% 1.5%;
+    margin: 1% 3%;
   }
 `;
 
